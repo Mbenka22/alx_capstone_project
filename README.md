@@ -14,8 +14,8 @@ Responsive Design: The web application is responsive, ensuring a seamless user e
 
 Technologies Used:
 
-Frontend: HTML, CSS, JavaScript (potentially with a framework like React or Vue.js)
-Backend: Python (with a framework like Flask or Django)
+Frontend: HTML, CSS, JavaScript.
+Backend: Python (with a framework like Flask)
 
 API Integration: Integration with a recipe API such as Spoonacular .
 **Deployment: Heroku, AWS, or similar platforms for hosting the applicati
@@ -25,7 +25,9 @@ API Integration: Integration with a recipe API such as Spoonacular .
 Roadmap and Future Enhancements:
 
 User Accounts: Implement user authentication and user accounts to enable features like saving preferences and personalized recommendations.
-Improved Search: Enhance the search functionality with advanced filters, autocomplete suggestions, and predictive search.
+
 Social Integration: Integrate social sharing features to allow users to share recipes with friends on social media platforms.
+
 Nutritional Tracking: Incorporate nutritional tracking and meal planning features to help users monitor their dietary intake and plan balanced meals.
+
 Enhanced User Interaction: Implement features for users to interact with each other, such as following other users, sharing cooking tips, and creating user-generated content.
