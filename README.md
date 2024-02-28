@@ -17,7 +17,7 @@ Technologies Used:
 Frontend: HTML, CSS, JavaScript.
 Backend: Python (with a framework like Flask)
 
-API Integration: Integration with a recipe API such as Spoonacular .
+API Integration: Integration with a recipe API such as edamam and will use the base url= https://api.edamam.com .
 **Deployment: Heroku, AWS, or similar platforms for hosting the applicati
 
 
