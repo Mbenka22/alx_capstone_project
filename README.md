@@ -17,8 +17,8 @@ Technologies Used:
 Frontend: HTML, CSS, JavaScript.
 Backend: Python (with a framework like Flask)
 
-API Integration: Integration with a recipe API such as edamam and will use the base url= https://api.edamam.com .
-**Deployment: Heroku, AWS, or similar platforms for hosting the applicati
+API Integration: Integration with a recipe API such as edamam and will use the base url= www.themealdb.com/api/json/v1/1/search.php?s.
+
 
 
 
