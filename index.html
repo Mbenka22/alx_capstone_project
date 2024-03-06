@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Finder App</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Recipe finder</title>
 </head>
-
 <body>
-    <div class="container">
-        <h1>Recipe finder</h1>
-        <form id="recipe-search-form">
-            <input type="text" id="search-input" placeholder="Enter food here...">
-            <button>SEARCH</button>
+    <nav>
+        <form  class="input-container">
+            <input type="text"  class="input" placeholder="Search...">
+          <i class="fa-solid fa-magnifying-glass"></i>
         </form>
-    </div>
-    <div class="placeholder-container">
-        <div class="image-placeholder">
-            <img src="images/download.jpg">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact us</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="image"></div>
+            <div class="contents-container">
+                <h3 class="food-title">Food</h3>
+                <p class="food-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum
+                    ipsum
+                    voluptates, dicta
+                    dignissimos aperiam officiis vitae omnis ne.</p>
+                    <button class="main-button">Place order</button>
+            </div>
         </div>
-        <div>
-            <h3>Food</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum ipsum voluptates, dicta dignissimos aperiam officiis vitae omnis nemo officia, sit sed dolor magnam corrupti! Dolorum at numquam doloremque magnam.</p>
-        </div>
-    </div>
-
+    </main>
+    <section class="ingredients"></section>
     <script src="script.js"></script>
 </body>
-<!---www.themealdb.com/api/json/v1/1/search.php?s=endpoint
-www.themealdb.com/images/ingredients/=images endpoint
-www.themealdb.com/api/json/v1/1/list.php?c=category
-www.themealdb.com/api/json/v1/1/list.php?a=area 
-www.themealdb.com/api/json/v1/1/list.php?i=ingerdients-->
-
 </html>
