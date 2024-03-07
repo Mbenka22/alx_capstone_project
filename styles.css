@@ -103,9 +103,28 @@ main{
 .main-button{
     background: transparent;
     border:none;
-    border: 2px solid black;
+    border: 2px solid orange;
     padding:10px;
     color:black;
 }
+.ingredients
+{
+    width:80px;
+    margin: 0 auto;
+    margin-top:5rem;
+    padding:50px;
+}
+.ingredients span{
+    display:flex;
+    flex-wrap:wrap;
+    list-style:none;
 
+}
+ing{
+    padding:10px 20px;
+    border:1px solid black;
+    color:yellow;
+    font-family:sans-serif;
+    border-radius: 100px;
+}
 
