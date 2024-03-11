@@ -1,0 +1,15 @@
+
+.meal {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    float: left;
+}
+.meal img {
+    width: 100%;
+    height: auto;
+}
+.recipe {
+    display: none;
+}

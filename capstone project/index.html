@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Finder</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="loginForm">
+        <input type="text" id="username" placeholder="Username">
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="login()">Login</button>
+    </div>
+    <h4 class="quote">"Food is good when talked about!" - Anthony Bourdain</h4>
+    <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Search for a meal...">
+        <button onclick="searchMeal()">Search</button>
+        <h2>Search results:</h2>
+    </div>
+    <div id="mealContainer"></div>
+
+    <div id="recipeContainer" class="recipe"></div>
+
+    <script src="javascript/script.js"></script>
+    </body>
+</html>
