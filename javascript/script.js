@@ -10,21 +10,25 @@ function searchMeal() {
     const searchTerm = searchInput.value.trim();
     if (searchTerm === '') {
         alert('Please enter a meal name to search.');
+        //fuction exited early
         return;
     }
 
     // Fetch data from the API
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchTerm}`)
-        .then(response => response.json())
+        .then(response => response.json())// response parsed as a json
         .then(data => {
             // Clear previous search results
             mealContainer.innerHTML = '';
 
-            // Update UI with up to four meal options
+            // Update the webpage with up to four meal options
             if (data.meals) {
-                for (let i = 0; i < Math.min(data.meals.length, 4); i++) {
+                for (let i = 0; i < Math.min(data.meals.length, 4); i++) { //math min method used to ensure the results 
+                    //displayed do not exceed 4
+
+
                     const meal = data.meals[i];
-                    const mealDiv = document.createElement('div');
+                    const mealDiv = document.createElement('div');//creates a new div for each meal and adds the content of the meal 
                     mealDiv.classList.add('meal');
                     mealDiv.innerHTML = `
                         <img src="${meal.strMealThumb}" alt="Meal Image">
