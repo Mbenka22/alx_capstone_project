@@ -1,8 +1,11 @@
+//variable declarations using their respective id from html
 const searchInput = document.getElementById('searchInput');
 const mealContainer = document.getElementById('mealContainer');
 const recipeContainer = document.getElementById('recipeContainer');
 const placeholderContent = document.getElementById('placeholderContent');
 
+
+//called when search button is clicked
 function searchMeal() {
     const searchTerm = searchInput.value.trim();
     if (searchTerm === '') {
