@@ -4,6 +4,8 @@ const mealContainer = document.getElementById('mealContainer');
 const recipeContainer = document.getElementById('recipeContainer');
 const placeholderContent = document.getElementById('placeholderContent');
 
+// Add event listener to search button
+document.querySelector('button').addEventListener('click', searchMeal);
 
 //called when search button is clicked
 function searchMeal() {
@@ -34,7 +36,7 @@ function searchMeal() {
                         <img src="${meal.strMealThumb}" alt="Meal Image">
                         <h3>${meal.strMeal}</h3>
                         <ul id="ingredientList${i}"></ul>
-                        <button onclick="showRecipe('${meal.idMeal}')">View Recipe</button>
+                        <button class="view-recipe-btn">View Recipe</button>
                     `;
                     mealContainer.appendChild(mealDiv);
                     fetchIngredients(meal.idMeal, i);
@@ -50,6 +52,14 @@ function searchMeal() {
             alert('An error occurred while fetching data. Please try again later.');
         });
 }
+
+// Add event listeners to View Recipe buttons
+document.querySelectorAll('.view-recipe-btn').forEach(button => {
+    button.addEventListener('click', function() {
+        const mealId = button.parentNode.querySelector('ul').id.replace('ingredientList', '');
+        showRecipe(mealId);
+    });
+});
 
 function fetchIngredients(mealId, index) {
     // Fetch ingredients for a meal
@@ -94,10 +104,13 @@ function showRecipe(mealId) {
                     <div class="modal-content">
                         <h2>${meal.strMeal}</h2>
                         <p>${meal.strInstructions}</p>
-                        <button onclick="closeRecipe()">Close</button>
+                        <button class="close-recipe-btn">Close</button>
                     </div>
                 `;
                 recipeContainer.style.display = 'block';
+
+                // Add event listener to close recipe button
+                document.querySelector('.close-recipe-btn').addEventListener('click', closeRecipe);
             } else {
                 alert('Recipe not found for this meal.');
             }
