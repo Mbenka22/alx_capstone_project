@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: tomato;
+  background-color: blueviolet;
 }
 
 .quote {
@@ -44,7 +44,7 @@ body {
 }
 
 .recipe {
-  display: none; /* Initially hide recipe container */
+  display: none; /* hide recipe container */
 }
 
 #placeholderContent {
