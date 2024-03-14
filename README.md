@@ -34,4 +34,4 @@ Enhanced User Interaction: Implement features for users to interact with each ot
 
 
 
-LINK to my powerpoint presentaion:"https://docs.google.com/presentation/d/1LQIsPDkaZC3aT5xGGwLGUwElH4qVpwPcaNfswQJhTLE/edit?usp=sharing"
+LINK to my powerpoint presentation:"https://docs.google.com/presentation/d/1LQIsPDkaZC3aT5xGGwLGUwElH4qVpwPcaNfswQJhTLE/edit?usp=sharing"
