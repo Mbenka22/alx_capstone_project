@@ -31,3 +31,7 @@ Social Integration: Integrate social sharing features to allow users to share re
 Nutritional Tracking: Incorporate nutritional tracking and meal planning features to help users monitor their dietary intake and plan balanced meals.
 
 Enhanced User Interaction: Implement features for users to interact with each other, such as following other users, sharing cooking tips, and creating user-generated content.
+
+
+
+LINK to my powerpoint presentaion:"https://docs.google.com/presentation/d/1LQIsPDkaZC3aT5xGGwLGUwElH4qVpwPcaNfswQJhTLE/edit?usp=sharing"
